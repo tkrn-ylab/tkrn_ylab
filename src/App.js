@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React yuka
+          Learn React yuka akira
         </a>
       </header>
     </div>
