@@ -1,3 +1,29 @@
+# リモートの内容をローカルに更新
+
+```sh
+git pull 
+```
+
+# 作業用のブランチを作成
+
+```sh
+git checkout -b dev
+git branch
+```
+
+# 変更した内容を保存
+
+```sh
+git add .
+git commit -m "message"
+```
+
+# 変更内容をリモートに反映
+
+```sh
+git push -u origin main
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
