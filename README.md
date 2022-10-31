@@ -21,8 +21,16 @@ git commit -m "message"
 # 変更内容をリモートに反映
 
 ```sh
-git push -u origin main
+git push -u origin dev
 ```
+
+# npm
+
+```sh
+npm start
+```
+
+
 
 # Getting Started with Create React App
 
