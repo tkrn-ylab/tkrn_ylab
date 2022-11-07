@@ -1,0 +1,103 @@
+span.sample1 {
+    font-family: serif;
+    color: white;
+    text-align: center;
+}
+span.sample2 {
+    font-family: serif;
+    color: black;
+    font-size: 15pt;
+}
+
+span.sample3 {
+    font-family: serif;
+    color: #b94047;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+span.sample4 {
+    font-family: serif;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+}
+
+
+
+.background{
+    width: auto;
+    margin: -10px;
+    padding: 5px;
+    background-color:#b94047;
+}
+
+.example1{
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px 0px 0px; 
+    padding: 0px;
+    object-fit: cover;
+}
+
+.example {
+    position: relative;
+    }
+  
+.example p {
+        white-space: nowrap;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        color: black;/*文字を黒に*/
+        background: rgba(247,235,152,0.7);/*背景色*/
+        /*文字の装飾は省略*/
+    }
+  
+.example img {
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px 0px 0px; 
+    padding: 0px;
+    object-fit: cover;
+    }
+
+    .centerImg {
+        font-size:0;
+        margin-bottom:15px;
+        text-align:center;
+        }
+        .centerImg > * {
+          width:49%;
+          margin-bottom:15px;
+          margin-left:2%;
+          display:inline-block;
+          font-size:12px;
+        }
+        .centerImg > *:nth-child(2n + 1) {
+          margin-left:0;
+        }
+        .centerImg img {
+          max-width:100%;
+        }
+  
+        .container{
+          width:100%;
+          height:40px;
+          position: relative;
+      }
+      .centerImg p{
+        font-size: 15pt;
+        font-family: serif;
+
+      }
+
+    .dken {
+        text-align: center;
+    }
