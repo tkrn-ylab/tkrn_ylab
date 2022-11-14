@@ -37,7 +37,7 @@ export const Page4 = () => {
             </div>
           </div> 
 
-          <br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br /><br /><br /><br />
 
           <ul>
           <h3 class="heading04"><font size="7">自己紹介</font></h3>
