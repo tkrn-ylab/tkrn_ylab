@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export const Page4 = () => {
     return (
       <div>
-        <h1><p class="no4"><font size="7">大池樹 (OOIKE TATSUKI)</font></p></h1> 
+        <h1><p class="no4"><font size="7">大池樹 (TATSUKI OIKE)</font></p></h1> 
         <br />
        <h3 class="heading04"><font size="7">写真紹介</font></h3>
 
@@ -12,7 +12,7 @@ export const Page4 = () => {
               <div class="description">
               <br />
                 <p>
-                  高校の友人と大阪と京都に旅行しに行った時に、着物を着て観光した時の写真です！
+                旅行に行った時に、暑すぎてパラソルの下で涼んでます笑
                 </p>
               </div>
             </div>
@@ -21,7 +21,7 @@ export const Page4 = () => {
               <div class="description">
               <br />
                 <p>
-                  友人の誕生日にディズニーシーで大好きな餃子ドッグ食べてる時の顔です！なんでこんな顔したのか謎です笑
+                めちゃめちゃきめてます笑
                 </p>
               </div>
             </div>
@@ -30,7 +30,7 @@ export const Page4 = () => {
               <div class="description">
               <br />
                 <p>
-                  豊洲のチームラボに行った時の写真です！すごくキラキラしてて神秘的な空間でした！！
+                シュラスコが全然来なくて空腹で死にそうになってました！
                 </p>
               </div>
               
@@ -53,7 +53,14 @@ export const Page4 = () => {
           <h3><font size="6">研究テーマ：ユーザーの属性に合わせた、指定したアイテムの高評価画像生成</font></h3>
           <h3><font size="6">利用するデータ：ファッションコーディネートアプリWEARの投稿データ</font></h3>
          </ul>
-        <Link to="/">Home</Link>
+        
+         <br />
+         <h3 class="heading04"><font size="6">
+        <Link to="/">HOME</Link>
+        </font>
+        </h3>
+
+
       </div>
     );
   };

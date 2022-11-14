@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export const Page2 = () => {
     return (
       <div>
-        <h1><p class="no4"><font size="7">坂牧悠香 (SAKAMAKI YUKA)</font></p></h1> 
+        <h1><p class="no4"><font size="7">坂牧悠香 (YUKA SAKAMAKI)</font></p></h1> 
         <br />
        <h3 class="heading04"><font size="7">写真紹介</font></h3>
 
@@ -53,7 +53,14 @@ export const Page2 = () => {
           <h3><font size="6">研究テーマ：実験計画法とベイズ最適化を用いた最適なパラメータ推定</font></h3>
           <h3><font size="6">利用するデータ：野村総合研究所のアンケートデータ</font></h3>
          </ul>
-        <Link to="/">Home</Link>
+        
+         <br />
+         <h3 class="heading04"><font size="6">
+        <Link to="/">HOME</Link>
+        </font>
+        </h3>
+
+
       </div>
     );
   };

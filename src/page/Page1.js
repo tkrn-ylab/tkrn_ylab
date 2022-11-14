@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Page1 = () => {
     return (
       <div>
-        <h1><p class="no4"><font size="7">谷畑耀 (TANIHATA AKIRA)</font></p></h1> 
+        <h1><p class="no4"><font size="7">谷畑耀 (AKIRA TANIHATA)</font></p></h1> 
         <br />
        <h3 class="heading04"><font size="7">写真紹介</font></h3>
 
@@ -58,11 +58,14 @@ export const Page1 = () => {
           <h3><font size="6">利用するデータ：未定</font></h3>
          </ul>
       
-
-
-
-
+        
+         <br />
+        <h3 class="heading04"><font size="6">
         <Link to="/">HOME</Link>
+        </font>
+        </h3>
+
+       
         
       </div>
     );

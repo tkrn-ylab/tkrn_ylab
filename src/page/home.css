@@ -126,3 +126,19 @@ span.sample4 {
     .dken {
         text-align: center;
     }
+
+    #page-top {
+        display: block;
+        font-weight: bold;
+        padding: .7em;
+        text-align: center;
+        background: #fff; /*背景色*/
+        color: #b94047; /*文字色*/
+        transition: .3s;
+    }
+    /***マウスオーバー時***/
+    #page-top:hover {
+        background: rgba(247,235,152); /*背景色*/
+        color: #000000; /*文字色*/
+    }
+    /***トップへ戻るボタンここまで***/

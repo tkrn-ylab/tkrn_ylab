@@ -28,7 +28,7 @@ export const Home = () => {
 
     <div class="centerImg">
     <div><Link to="/page1">
-      <img src="akira1.jpg" alt="画像2" width="60%" height="70%"/></Link><p>谷畑 耀(TANIHATA AKIRA)</p>
+      <img src="akira1.jpg" alt="画像2" width="60%" height="70%"/></Link><p>谷畑 耀(AKIRA TANIHATA)</p>
         <br />
   
     </div>
@@ -41,7 +41,7 @@ export const Home = () => {
         <br />
         </div>
       <div><Link to="/page4">
-        <br /><img src="tatsuki1.jpg" alt="画像5" width="60%" height="70%"/></Link><p>大池 樹(OIKE TATSUKI)</p>
+        <br /><img src="tatsuki1.jpg" alt="画像5" width="60%" height="70%"/></Link><p>大池 樹(TATSUKI OIKE)</p>
         <br />
       </div>
 </div>
@@ -57,7 +57,9 @@ export const Home = () => {
         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCFDyXEywtNhdtwqC3GAkYuA"><img src="D研.png" alt="画像6"/></a>
     </span>
 </div>
-
+<div>
+<a href="#" id="page-top"><i class="blogicon-chevron-up"></i>トップへ戻る</a>
+</div>
       </div>
     );
   };

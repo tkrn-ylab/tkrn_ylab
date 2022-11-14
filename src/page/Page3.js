@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export const Page3 = () => {
     return (
       <div>
-        <h1><p class="no4"><font size="7">三橋可奈 (MITSUHASHI KANA)</font></p></h1> 
+        <h1><p class="no4"><font size="7">三橋可奈 (KANA MITSUHASHI)</font></p></h1> 
         <br />
        <h3 class="heading04"><font size="7">写真紹介</font></h3>
 
@@ -53,7 +53,15 @@ export const Page3 = () => {
           <h3><font size="6">研究テーマ：画像処理とXAIを組み合わせた高く評価される画像の特徴抽出</font></h3>
           <h3><font size="6">利用するデータ：ファッションコーディネートアプリWEARの投稿データ</font></h3>
          </ul>
-        <Link to="/">Home</Link>
+        
+         <br />
+
+       <h3 class="heading04"><font size="6">
+        <Link to="/">HOME</Link>
+        </font>
+        </h3>
+
+
       </div>
     );
   };
