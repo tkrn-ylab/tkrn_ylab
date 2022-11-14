@@ -7,10 +7,10 @@ export const Home = () => {
       
       <div>
         <div class="background1">
-        <span class = "sample1">
-        <p>山下研究室 M1Ver.</p>
-        </span>
-    </div>
+          <span class = "sample1">
+            <p>山下研究室 M1Ver.</p>
+          </span>
+        </div>
 
     <div class="example">
         <img src="g2.jpg" alt="画像1"/>
@@ -18,7 +18,12 @@ export const Home = () => {
         <p>当研究室のメンバーは、2022年4月に上智大学大学院理工学研究科理工学専攻情報学領域に入学しました。<br></br>
             さまざまな分野に対して多角的視点を持ち、データ分析によってサービス向上を目指しています。</p>
         </span>	
-      </div>
+    </div>
+
+    <div class="baseball_akira">
+          <img src="akirabaseball.png" alt="画像0" width="15%" height="15%"/>
+    </div>
+        
     
     <div class ="background2">
       <span class = "sample3">

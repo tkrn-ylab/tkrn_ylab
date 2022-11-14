@@ -82,12 +82,14 @@ span.sample4 {
         padding:0;
         color: black;/*文字を黒に*/
         background: rgba(247,235,152,0.9);/*背景色*/
+        font-size: xx-large;
         /*文字の装飾は省略*/
     }
+ 
   
 .example img {
     width: 100%;
-    height: 300px;
+    height: 630px;
     margin: 10px 0px 0px 0px; 
     padding: 0px;
     object-fit: cover;
@@ -126,3 +128,31 @@ span.sample4 {
     .dken {
         text-align: center;
     }
+
+    .baseball_akira{
+        width: 100%;
+        opacity: 0;
+        margin-left: 50%;
+        transform: translateX(-100%);
+        opacity: 0;
+        animation: slide-in-anim 8.5s ease-out forwards;
+        position: absolute;
+        top: 10.5%;
+      }
+       
+      @keyframes slide-in-anim {
+        0% {
+          opacity: 1;
+        }
+        60% {
+          transform: translateX(20%);
+        }
+        75% {
+          transform: translateX(-40%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(60%);
+        }
+      }
+      
